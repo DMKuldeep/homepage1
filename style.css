@@ -1310,8 +1310,14 @@ svg {
 }
 
 .faq {
+
+  display: flex;
+width: 1440px;
+padding: 16px 0px;
+flex-direction: column;
+align-items: center;
+gap: 32px;
   background-color: #000;
-  padding: 25px 0;
 }
 
 .faq img {
@@ -1319,8 +1325,15 @@ svg {
 }
 
 .faq p {
-  font-size: 14px;
-  color: #fff;
+ 
+  color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 24px; /* 150% */
+text-transform: capitalize;
 }
 
 .faq ul {
@@ -1665,13 +1678,13 @@ img.img-fluid.model2 {
   }
 }
 
-footer {
+.footer {
   margin-top:48px ;
   margin-bottom: 59px;
   font-family: "Alike", serif;
 }
 
-footer h5 {
+.footer h5 {
   font-size: 1.2rem;
   margin-bottom: 20px;
   font-weight: bold;
