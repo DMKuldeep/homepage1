@@ -65,7 +65,9 @@
 
 
 
-
+.row.text-center.align-items-center {
+  margin-top: -45px;
+}
 
 
 .section6 p {
@@ -95,11 +97,10 @@ p.SÖTBELLA {
 } */
 
 .lens {
-  top: 0px;
   left: 90px;
   width: 18px;
   height: 18px;
-  margin-top: 39px;
+  margin-top: 20px;
   position: absolute;
   flex-shrink: 0;
 }
@@ -756,6 +757,7 @@ flex-shrink: 0;
   align-items: center;
   gap: 24px;
   margin-top: 16px;
+  margin-left: 0px;
 
 }
 
