@@ -57,6 +57,16 @@
 }
 
 
+.whitetopgirl {
+  width: 1442px;
+  /* height: 888px; */
+  flex-shrink: 0;
+
+}
+
+
+
+
 input[type="email"] {
   border-radius: 4px;
   width: 411px;
@@ -96,18 +106,12 @@ input[type="email"]::placeholder{
 
 .image {
   width: 100%;
-  height: auto;
+  height: 848px;
 }
-
-.video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: none;
-  /* Hide video by default */
+.col-md-12.imagefullwidth {
+  /* width: 1440px; */
+  height: 848px;
+  flex-shrink: 0;
 }
 
 .image1:hover .video,
@@ -647,7 +651,7 @@ p.line4 {
 
 .imagefullwidth .img {
   width: 1440px;
-  height: 654px;
+  height: 848px;
   margin-top: 40px;
   margin-bottom: 58px;
 }
@@ -666,9 +670,23 @@ p.line4 {
 }
 
 .whitetopgirl {
-  width: 1442px;
-  /* height: 888px; */
+  width: 1440px;
+  height: 100%;
   flex-shrink: 0;
+
+}
+
+
+.imagefirst{
+  width: 720px;
+  height: 848px;
+}
+
+
+.whitetopgirlvideo{
+  width: 100%;
+  height: 848px;
+  object-fit: cover;
 
 }
 
@@ -851,17 +869,6 @@ p.line4 {
   /* 157.143% */
 }
 
-/* .imageheading {
-  color: #000;
-  font-family: 'Lato', sans-serif;
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 20px;
-  margin-top: 16px;
-  margin-bottom: 8px;
-  justify-content: left;
-} */
 
 .imageheading {
   color: #000;
@@ -1185,10 +1192,8 @@ svg {
   width: 580px;
 }
 
-.video {
-  height: 714px;
-  width: 628px;
-}
+
+
 .video {
   position: absolute; /* Position the video absolutely */
   top: 0;
@@ -1208,7 +1213,8 @@ svg {
 
 .image {
   width: 100%; /* Ensure image takes the full width */
-  height: auto; /* Maintain aspect ratio */
+  height: 848px; /* Maintain aspect ratio */
+  object-fit: cover;
 }
 
 
