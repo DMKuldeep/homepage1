@@ -680,6 +680,18 @@ p.line4 {
 }
 
 
+a:link, a:visited {
+
+  text-decoration: none;
+
+  color: white; /* Set your desired default link color */
+
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
 
 .header-item.--right {
   flex: 1 1 0%;
