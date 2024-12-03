@@ -48,7 +48,12 @@
 .list-inline {
   display: inline-flex;
   gap: 24px; /* Uniform gap between links */
+
+    padding-left: 0;
+    list-style: none;
+    margin-left: -21px;
 }
+
 
 a.text-reset {
   text-decoration: none;
