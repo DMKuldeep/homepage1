@@ -40,8 +40,29 @@
   width: 300px;
 }
 
+.col-md-4.text-center.linksall {
+  margin-left: 0px;
+}
 
 
+.list-inline {
+  display: inline-flex;
+  gap: 24px; /* Uniform gap between links */
+}
+
+a.text-reset {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Right-Aligned Icons */
+.row .col-md-6:last-child a {
+  margin-right: 24px; /* 24px gap between icons */
+}
+
+.row .col-md-6:last-child a:last-child {
+  margin-right: 0; /* No margin on the last icon */
+}
 
 .content {
   position: fixed;
@@ -792,7 +813,12 @@ a {
   /* Ensures the video fills the container without distortion */
 
 }
-
+.linksall{
+  margin-left: -8px;
+}
+.col-md-4.text-center.linksall {
+  margin-left: -12px;
+}
 
 
 .shopbtn {
@@ -957,6 +983,18 @@ a {
   line-height: 104px;
   /* 108.333% */
 }
+
+/* Common Text Styling */
+.text-style {
+  color: #FFF;
+  font-family: 'Lato', sans-serif; /* Ensure 'Lato' is loaded in your project */
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px; /* 157.143% */
+  text-transform: uppercase;
+}
+
 
 .section1text .bottom {
   position: absolute;
