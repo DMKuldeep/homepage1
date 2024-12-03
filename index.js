@@ -1,3 +1,6 @@
+
+
+
 document.querySelectorAll('.position-relative').forEach(container => {
     const video = container.querySelector('.video');
     
@@ -10,3 +13,10 @@ document.querySelectorAll('.position-relative').forEach(container => {
       video.currentTime = 0; // Reset video to start
     });
   });
+
+
+
+  setTimeout(() => {
+    const topTextElement = document.getElementById('toptext');
+    topTextElement.textContent = "20% OFF on orders over ₹10,000 | Code: DIWALI10";
+  }, 2000); 

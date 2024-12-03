@@ -45,6 +45,118 @@
 }
 
 
+.mini-head {
+  font-family: "Lato";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  height: 40px;
+  font-size: 12px;
+}
+
+.toptext {
+  color: #FFF;
+  font-family: 'Lato', sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  /* 166.667% */
+  margin-top: 11px;
+  margin-bottom: 10px;
+}
+
+.copy-btn {
+  font-family: "Lato";
+  background-color: white;
+  color: black;
+  border: none;
+  padding: 5px 10px;
+  margin-left: 10px;
+  cursor: pointer;
+  font-size: 10px;
+}
+
+.sticky-top ul li a {
+  text-decoration: none;
+  color: white;
+  color: #FFF;
+  font-family: 'Lato';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
+  text-transform: capitalize;
+}
+
+.sticky-top {
+  background-color: #00000099;
+  padding: 10px 0; 
+  position: sticky; 
+  top: 8px; 
+  z-index: 1000; 
+}
+
+.sticky-top p, 
+.sticky-top a, 
+.sticky-top i {
+  color: white; 
+}
+
+.sticky-top ul {
+  list-style-type: none; 
+  padding: 0;
+}
+
+.sticky-top ul li {
+  display: inline; 
+  margin-right: 40px; /* Add space between items */
+color: #FFF;
+font-family: Lato;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 22px;
+}
+
+.sticky-top ul li a {
+  text-decoration: none; /* Remove underline from links */
+color: #FFF;
+font-family: "Lato";
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 22px; /* 157.143% */
+text-transform: capitalize;
+}
+
+.sticky-top ul li a {
+  text-decoration: none;
+  color: #FFF;
+font-family: "Lato";
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 22px; /* 157.143% */
+text-transform: capitalize; 
+}
+
+.sticky-top p{
+  color: #FFF;
+text-align: center;
+font-family: "DM Serif Display";
+font-size: 56px;
+font-style: normal;
+font-weight: 400;
+line-height: 64px; /* 114.286% */
+}
+
+
+
+
 .list-inline {
   display: inline-flex;
   gap: 24px; /* Uniform gap between links */
@@ -70,7 +182,7 @@ a.text-reset {
 }
 
 .content {
-  position: fixed;
+  position: absolute;
   top: 0;
   color: white;
   margin-top: 32px;
@@ -88,6 +200,14 @@ a.text-reset {
   /* height: 888px; */
   flex-shrink: 0;
 
+}
+
+.newdropbtn{
+  position: absolute;
+  margin-top: 90%;
+  margin-left: 50%;
+  justify-content: center;
+  align-items: center;
 }
 
 
@@ -195,7 +315,7 @@ p.SÖTBELLA {
   font-style: normal;
   font-weight: 400;
   line-height: 64px;
-  margin-top: 32px;
+  margin-top: 12px;
 }
 
 
